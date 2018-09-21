@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.listen(3000, () => {
   // eslint-disable-next-line
-	console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 3000!');
 });
 
 const server = http.createServer((req, res) => {
@@ -25,9 +25,13 @@ const server = http.createServer((req, res) => {
 
   // res.setHeader('Content-Type', 'text/plain');
   client.connect()
-    .then(() => client.query('SELECT * FROM hellotable'))
-    .then((result) => {
-      res.end(`${result.rows[0].name}\n`);
+    // .then(() => client.query('SELECT * FROM hellotable'))
+    // .then((result) => {
+    //   res.end(`${result.rows[0].name}\n`);
+    //   client.end();
+    // })
+    .then(() => {
+      res.end('GOOD');
       client.end();
     })
     .catch(() => {
