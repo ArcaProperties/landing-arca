@@ -1,6 +1,8 @@
 const http = require('http');
 const { Client } = require('pg');
+const express = require('express');
 
+const app = express();
 const PORT = process.env.PORT || 5000;
 const { DATABASE_URL } = process.env;
 const server = http.createServer((req, res) => {
@@ -20,6 +22,15 @@ const server = http.createServer((req, res) => {
       client.end();
     });
 });
+
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+})
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+})
+
 server.listen(PORT, () => {
   // eslint-disable-next-line
   console.log(`Server running on ${PORT}/`);
