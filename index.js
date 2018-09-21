@@ -23,13 +23,14 @@ const server = http.createServer((req, res) => {
     });
 });
 
-app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
+app.get('/', (req, res) => {
+  res.send('Hello Worldssssss!');
+});
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-})
+app.listen(3000, () => {
+  // eslint-disable-next-line
+  console.log('Example app listening on port 3000!');
+});
 
 server.listen(PORT, () => {
   // eslint-disable-next-line
