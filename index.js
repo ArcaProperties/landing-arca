@@ -23,19 +23,17 @@ const server = http.createServer((req, res) => {
   });
   res.statusCode = 200;
 
-  client.connect();
-
   // res.setHeader('Content-Type', 'text/plain');
-  // client.connect()
-  //   .then(() => client.query('SELECT * FROM hellotable'))
-  //   .then((result) => {
-  //     res.end(`${result.rows[0].name}\n`);
-  //     client.end();
-  //   })
-  //   .catch(() => {
-  //     res.end('ERROR');
-  //     client.end();
-  //   });
+  client.connect()
+    .then(() => client.query('SELECT * FROM hellotable'))
+    .then((result) => {
+      res.end(`${result.rows[0].name}\n`);
+      client.end();
+    })
+    .catch(() => {
+      res.end('ERROR');
+      client.end();
+    });
 });
 
 server.listen(PORT, () => {
