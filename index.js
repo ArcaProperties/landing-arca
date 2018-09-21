@@ -23,8 +23,10 @@ const server = http.createServer((req, res) => {
     });
 });
 
+app.set('view engine', 'ejs');
+
 app.get('/', (req, res) => {
-  res.send('Hello Worldssssss!');
+  res.render('index');
 });
 
 app.listen(3000, () => {
