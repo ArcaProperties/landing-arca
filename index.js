@@ -1,12 +1,15 @@
 // const http = require('http');
 // const { Client } = require('pg');
 const express = require('express');
+// const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 // const { DATABASE_URL } = process.env;
 
+app.use(express.static('public'));
 app.set('view engine', 'ejs');
+
 
 app.get('/', (req, res) => {
   res.render('index');
@@ -15,7 +18,7 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
   // eslint-disable-next-line
-	console.log('Example app listening on port ${PORT}/!');
+	console.log('Example app listening on port ' + PORT + '!');
 });
 
 // const server = http.createServer((req, res) => {
