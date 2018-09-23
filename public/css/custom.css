@@ -1,0 +1,10 @@
+.main-header {
+	position: fixed;
+	transition: 0.3s all;
+	z-index: 30;
+}
+
+.main-header-changed {
+	background: #242526;
+	top: 0;
+}

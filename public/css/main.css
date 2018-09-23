@@ -10440,8 +10440,7 @@ input.call_to_action__form__item--08 {
 
 .prices__item__price--01 {
   font-weight: 700;
-  display: block;
-  max-width: 63px;
+  display: inline-block;
   height: 28px;
   margin: auto auto 30px;
   padding: 0 10px;
@@ -10882,6 +10881,7 @@ input.call_to_action__form__item--08 {
 
 .footer__logo_box {
   display: inline-block;
+  max-width: 250px;
   height: 30px; }
   .footer__logo_box, .footer__logo_box:hover, .footer__logo_box:visited, .footer__logo_box:active, .footer__logo_box:focus {
     text-decoration: none; }
@@ -11466,7 +11466,7 @@ input.call_to_action__form__item--08 {
 .cover__slider__arrows_box {
   position: absolute;
   margin: auto;
-  z-index: 10;
+  z-index: 5;
   left: 0;
   right: 0;
   top: 50%;
