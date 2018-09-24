@@ -8,3 +8,11 @@
 	background: #242526;
 	top: 0;
 }
+
+.gradient-background {
+	background-image: linear-gradient(to bottom right, #e2af64, #e6b980, #eacda3, #eed7b4)
+}
+
+.white-text {
+	color: white;
+}
