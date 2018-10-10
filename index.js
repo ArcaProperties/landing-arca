@@ -12,8 +12,24 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('pages/index');
   res.statusCode = 200;
+});
+
+app.get('/about', (req, res) => {
+  res.render('pages/about');
+});
+
+app.get('/signup', (req, res) => {
+  res.render('pages/signup');
+});
+
+app.get('/faq', (req, res) => {
+  res.render('pages/faq');
+});
+
+app.get('/referrals', (req, res) => {
+  res.render('pages/referrals');
 });
 
 app.listen(PORT, () => {

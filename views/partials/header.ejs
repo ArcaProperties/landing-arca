@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/custom.js"></script>    
+    <link rel="stylesheet/less" type="text/css" href="/css/custom.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
+  </head>
+  <body>
+    <main class="page_wrapper">
+      <!-- == START OF MENU 01 (large desktop header--01 is hidden on mobiles (iPhone, iPad, etc) and this one is to be opened on burger tap) ==-->
+      <nav data-menu-index="01" class="menu menu--01 js-menu gradient-background">
+        <div class="menu__container">
+          <button type="button" class="menu__closer js-close-menu">close</button>
+          <div class="menu__box">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="/" class="menu__link">Home</a></li>
+              <li class="menu__item"><a href="/about" class="menu__link">About</a></li>
+              <li class="menu__item"><a href="/faq" class="menu__link">FAQ</a></li>
+              <li class="menu__item"><a href="/referrals" class="menu__link">Referrals</a></li>
+              <li class="menu__item"><a href="/signup" class="menu__link">Sign Up</a></li>
+            </ul>
+            <a href="tel:1337 993 399" class="menu__phone_link">1337 993 399</a>
+            <h3 class="menu__title">about</h3>
+            <p class="menu__about_text">Never trap the scholar, for you cannot feel it. Nunquam fallere lactea. Break me fish, ye real jolly roger! Never trap the scholar, for you cannot feel it. Nunquam fallere lactea. Break me fish, ye real jolly roger!</p>
+          </div>
+        </div>
+      </nav>
+      <!-- == END OF MENU 01 (large desktop header--01 is hidden on mobiles (iPhone, iPad, etc) and this one is to be opened on burger tap) ==-->
+      <!-- == START OF PRESENTATION NAVBAR ==-->
+      <!--this component is used for easier navigation and is not a part of the Phoenix tool. Yet, you still are free to use it in your projects if you want.-->
+      <header class="header js-header main-header">
+        <div class="container header__container">
+          <div class="header__left_box">
+              <a href="/" title="Home" class="header__logo_box">
+                  <img src="img/brand/arca-logo-white.svg" alt="Arca properties logo" class="header__logo_img">
+              </a>
+          </div>
+          <div class="header__right_box">
+            <button type="button" data-menu-index="01" class="header__burger_button js-open-menu"></button>
+          </div>
+        </div>
+      </header>
+      <!-- == END OF PRESENTATION NAVBAR ==-->

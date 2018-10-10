@@ -16,3 +16,31 @@
 .white-text {
 	color: white;
 }
+
+.about__content--1aw {
+	  position: relative; }
+  @media (min-width: 993px) {
+    .about__content--1aw {
+      float: left;
+      width: 50%;
+      padding-left: 85px; } }
+
+.about--aw1 {
+  min-height: 1px;
+  padding: 0 0 100px;
+  text-align: center; }
+  @media (max-width: 500px) {
+    .about--aw1 {
+      padding: 50px 0 70px; } }
+}
+
+.faq__container--aw1 {
+  position: relative; }
+  @media (min-width: 993px) {
+    .faq__container--aw1 {
+      width: 80%;
+      margin: auto; } }
+
+.text__logo_img {
+	height: 13px;
+}
