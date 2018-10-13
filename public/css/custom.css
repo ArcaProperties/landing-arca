@@ -44,3 +44,87 @@
 .text__logo_img {
 	height: 13px;
 }
+
+.icon--medium {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 27px; }
+  .icon--medium:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat; }
+
+.process_item--small {
+  display: inline-block;
+  width: 110px;
+  margin: 0 30px;
+  position: relative;
+  cursor: pointer; }
+  .process_item--small:before, .process_item--small:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -25px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: opacity .4s ease;
+    -moz-transition: opacity .4s ease;
+    -o-transition: opacity .4s ease;
+    transition: opacity .4s ease; }
+  .process_item--small:after {
+    opacity: 0; }
+  .process_item--small:hover:after, .process_item--small.state-active:after {
+    opacity: 1; }
+  .process_item--small:hover .about__process_title:before, .process_item--small.state-active .about__process_title:before {
+    background-color: #e6b980; }
+  .process_item--small--computer-icon:before {
+    background: url(../img/icons/wadaicons/online-house-money-icon-gray.svg) no-repeat center/100% auto; }
+  .process_item--small--computer-icon:after {
+    background: url(../img/icons/wadaicons/online-house-money-icon.svg) no-repeat center/100% auto; }
+  .process_item--small--guest-icon:before {
+    background: url(../img/icons/wadaicons/guest-luggage-tag-icon-gray.svg) no-repeat center/100% auto; }
+  .process_item--small--guest-icon:after {
+    background: url(../img/icons/wadaicons/guest-luggage-tag-icon.svg) no-repeat center/100% auto; }
+  .process_item--small--clean-icon:before {
+    background: url(../img/icons/wadaicons/house-clean-bubble-icon-gray.svg) no-repeat center/100% auto; }
+  .process_item--small--clean-icon:after {
+    background: url(../img/icons/wadaicons/house-clean-bubble-icon.svg) no-repeat center/100% auto; }
+  .process_item--small--money-icon:before {
+    background: url(../img/icons/wadaicons/money-moving-many-icon-gray.svg) no-repeat center/100% auto; }
+  .process_item--small--money-icon:after {
+    background: url(../img/icons/wadaicons/money-moving-many-icon.svg) no-repeat center/100% auto; }
+  @media (max-width: 992px) {
+    .process_item--small {
+      margin: 0 10px; } }
+  @media (max-width: 600px) {
+    .process_item--small {
+      margin: 0; } }
+  @media (max-width: 500px) {
+    .process_item--small {
+      width: 49%;
+      margin-bottom: 20px; } }
+
+@media (min-width: 749px) {
+	.ipad_center_table {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+.black_shadow {
+	box-shadow: 5px 8.7px 40px rgba(0, 0, 0, .5);
+}
+
+/* .icon__school:before {
+  background: url(img/icons/wadaicons/computer-school-mac-icon.svg) no-repeat center/100% auto; }
