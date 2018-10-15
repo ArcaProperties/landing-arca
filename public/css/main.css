@@ -1,4 +1,4 @@
-/*!
+/*! 
  * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -7244,6 +7244,12 @@ input.call_to_action__form__item--08 {
   .features__item_icon_circle--icon--big:before {
     height: 40px;
     width: 40px; }
+  .features__item_icon_circle--money-icon:before {
+    background: url(../img/icons/wadaicons/money-moving-many-icon-white.svg) no-repeat center/100% auto; }
+  .features__item_icon_circle--speech-icon:before {
+    background: url(../img/icons/wadaicons/speech-bubble-lines-icon-white.svg) no-repeat center/100% auto; }
+  .features__item_icon_circle--org-icon:before {
+    background: url(../img/icons/wadaicons/org-chart-square-icon-white.svg) no-repeat center/100% auto; }
   .features__item_icon_circle--play-icon:before {
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlhNTElEXzFfIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8ZyBpZD0iaS0tcGxheS1ib3gtLWJsdWUiPg0KCTxnPg0KCQk8cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjMsMEgwLjk5OUMwLjQ0NTMsMCwwLDAuNDQ1MywwLDAuOTk4VjIzYzAsMC41NTM3LDAuNDQ1MywxLDAuOTk5LDFIMjNjMC41NTQ3LDAsMS0wLjQ0NjMsMS0xVjAuOTk4DQoJCQlDMjQsMC40NDUzLDIzLjU1NDcsMCwyMywweiBNMTEsMmw1LjkxMjEtMC4wMDJMMTQsNkg4TDExLDJ6IE03LjkxMDIsMS45OThMNSw2SDJMMS45OTgsMS45OThINy45MTAyeiBNMjEuOTk2MSwyMi4wMDJIMS45OThMMiw4DQoJCQloMjBMMjEuOTk2MSwyMi4wMDJ6IE0yMiw2aC01bDMtNGgyVjZ6IE04Ljg1NTUsMTkuOTYyOWMwLjEzNjcsMC4wNjQ1LDAuMjg5MSwwLjA5OTYsMC40MzU1LDAuMDk5Ng0KCQkJYzAuMjIwNywwLDAuNDQxNC0wLjA3NDIsMC42MTcyLTAuMjEwOWw1LjQyMTktNC4zMTU0YzAuMjQwMi0wLjE5MTQsMC4zNzctMC40Nzk1LDAuMzc3LTAuNzg0Mg0KCQkJYzAtMC4zMDM3LTAuMTM2Ny0wLjU5MTgtMC4zNzctMC43ODMybC01LjQxNy00LjMxNDVjLTAuMjk3OS0wLjI0MDItMC43MS0wLjI4NTItMS4wNTc2LTAuMTE4Mg0KCQkJYy0wLjM0MjgsMC4xNjctMC41NjM1LDAuNTE4Ni0wLjU2MzUsMC45MDE0djguNjI1QzguMjkyLDE5LjQ0NTMsOC41MDc4LDE5Ljc5NjksOC44NTU1LDE5Ljk2Mjl6IE0xMC4yOTEsMTIuNTA4OGwyLjgxNjQsMi4yMzkzDQoJCQlsLTIuODE2NCwyLjIzODNWMTIuNTA4OHoiLz4NCgk8L2c+DQo8L2c+DQo8L3N2Zz4NCg==) no-repeat center/100% auto; }
   .features__item_icon_circle--play-icon--blue:before {
