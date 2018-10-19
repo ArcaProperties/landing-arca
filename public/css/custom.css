@@ -9,6 +9,22 @@
 	top: 0;
 }
 
+.header__container-aw {
+  line-height: 60px;
+  text-align: center; }
+  .header__container-aw:after {
+    content: " ";
+    /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+
+.header__logo_img-aw {
+  max-height: 100%;
+  line-height: 42px;
+  height: 15px; }
+
 .gradient-background {
 	background-image: linear-gradient(to bottom right, #e2af64, #e6b980, #eacda3, #eed7b4)
 }

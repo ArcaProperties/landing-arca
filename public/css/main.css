@@ -6217,9 +6217,8 @@ input {
   height: 42px; }
 
 .header__logo_img {
-  max-width: 100%;
   max-height: 100%;
-  line-height: 42px;
+  line-height: 10px;
   height: 42px; }
 
 .header__logo_text {
@@ -12516,7 +12515,7 @@ input.call_to_action__form__item--08 {
 
 .cover__description_text--12 {
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.67);
+  color: rgba(255, 255, 255, 1);
   font-size: 17px; }
   .wf-playfairdisplay-n4-active .cover__description_text--12 {
     font-family: Playfair Display, Helvetica, Arial, sans-serif; }
