@@ -24,6 +24,9 @@
   max-height: 100%;
   line-height: 42px;
   height: 15px; }
+  @media (max-width: 500px) {
+    .header__logo_img-aw {
+      height: 12px; } }
 
 .gradient-background {
 	background-image: linear-gradient(to bottom right, #e2af64, #e6b980, #eacda3, #eed7b4)
@@ -177,6 +180,33 @@
   color: white; }
   .wf-playfairdisplay-i7-active .works__item_tags--aw {
     font-family: Playfair Display, Helvetica, Arial, sans-serif; }
+
+.prices__item__price_info--aw {
+  display: block;
+  font-size: 12px; }
+  .prices__item__price_info--white {
+    color: white; }
+
+.about__description--aw {
+  font-weight: 300;
+  max-width: 500px;
+  font-size: 16px;
+  margin-bottom: 70px;
+  color: #747474; }
+  .wf-montserrat-n3-active .about__description--aw{
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.about__title--aw {
+  font-size: 44px; }
+  @media (max-width: 500px) {
+    .about__title--aw {
+      font-size: 34px; } } 
+
+@media (min-width: 992px) {
+	.only-mobile {
+  		display: none; 
+  	} 
+}
 
 /* .icon__school:before {
   background: url(img/icons/wadaicons/computer-school-mac-icon.svg) no-repeat center/100% auto; }
