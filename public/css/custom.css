@@ -208,5 +208,11 @@
   	} 
 }
 
+@media (max-width: 993px) {
+	.only-desktop {
+  		display: none; 
+  	} 
+}
+
 /* .icon__school:before {
   background: url(img/icons/wadaicons/computer-school-mac-icon.svg) no-repeat center/100% auto; }
