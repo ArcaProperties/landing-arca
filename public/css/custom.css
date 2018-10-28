@@ -36,6 +36,10 @@
 	color: white;
 }
 
+.grey-background {
+	background-color: #242526;
+}
+
 .about__content--1aw {
 	  position: relative; }
   @media (min-width: 993px) {
