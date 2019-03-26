@@ -1,0 +1,23 @@
+{
+  "name": "test-bootstrap",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [{
+     "plan": "heroku-postgresql:hobby-dev",
+     "options": {
+       "version": "9.5"
+     }
+  }],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
