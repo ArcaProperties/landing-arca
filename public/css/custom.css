@@ -9,6 +9,13 @@
 	top: 0;
 }
 
+.app-main-header {
+  position: fixed;
+  z-index: 30;
+  background: #242526;
+  top: 0;
+}
+
 .header__container-aw {
   line-height: 60px;
   text-align: center; }
