@@ -30,8 +30,8 @@ app.get('/faq', (req, res) => {
   res.render('pages/faq');
 });
 
-app.get('/referrals', (req, res) => {
-  res.render('pages/referrals');
+app.get('/landlords', (req, res) => {
+  res.render('pages/landlords');
 });
 
 app.get('/app', (req, res) => {
