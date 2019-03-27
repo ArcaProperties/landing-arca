@@ -34,6 +34,10 @@ app.get('/landlords', (req, res) => {
   res.render('pages/landlords');
 });
 
+app.get('/referrals', (req, res) => {
+  res.render('pages/referrals');
+});
+
 app.get('/app', (req, res) => {
   res.render('pages/app');
 });
