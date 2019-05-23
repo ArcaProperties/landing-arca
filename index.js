@@ -14,32 +14,61 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', (req, res) => {
-  res.render('pages/index');
+  res.render('en/pages/index');
   res.statusCode = 200;
 });
 
 app.get('/about', (req, res) => {
-  res.render('pages/about');
+  res.render('en/pages/about');
 });
 
 app.get('/signup', (req, res) => {
-  res.render('pages/signup');
+  res.render('en/pages/signup');
 });
 
 app.get('/faq', (req, res) => {
-  res.render('pages/faq');
+  res.render('en/pages/faq');
 });
 
 app.get('/landlords', (req, res) => {
-  res.render('pages/landlords');
+  res.render('en/pages/landlords');
 });
 
 app.get('/referrals', (req, res) => {
-  res.render('pages/referrals');
+  res.render('en/pages/referrals');
 });
 
 app.get('/app', (req, res) => {
-  res.render('pages/app');
+  res.render('pages/en/app');
+});
+
+app.get('/it/', (req, res) => {
+  res.render('it/pages/index');
+  res.statusCode = 200;
+});
+
+app.get('/it/about', (req, res) => {
+  res.render('it/pages/about');
+});
+
+app.get('/it/signup', (req, res) => {
+  res.render('it/pages/signup');
+});
+
+app.get('/it/faq', (req, res) => {
+  res.render('it/pages/faq');
+});
+
+app.get('/it/landlords', (req, res) => {
+  res.render('it/pages/landlords');
+});
+
+app.get('/it/referrals', (req, res) => {
+  res.render('it/pages/referrals');
+});
+
+app.get('/it/app', (req, res) => {
+  res.render('it/pages/app');
 });
 
 // const pool = new Pool({
